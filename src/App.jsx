@@ -1,6 +1,7 @@
 
 import './index.css'
 import img1 from './images/dashboard-v1.jpg'
+import img2 from './images/dashboard v2.jpg'
 import { IoIosArrowDroprightCircle } from "react-icons/io"
 import { IoInfiniteOutline } from "react-icons/io5";
 import { TbWavesElectricity } from "react-icons/tb";
@@ -8,7 +9,7 @@ import { IoGiftOutline } from "react-icons/io5";
 import { MdMessage } from "react-icons/md";
 import { PiHandHeartBold } from "react-icons/pi";
 import { MdHowToVote } from "react-icons/md";
-import { FaRegWindowRestore, FaSearch, FaStar } from "react-icons/fa";
+import { FaRegWindowRestore, FaSearch, FaStar } from "react-icons/fa";1
 import { FaCar, FaRegClock, FaWindows } from "react-icons/fa6";
 import { MdPeople } from "react-icons/md";
 import { LuChartNoAxesCombined } from "react-icons/lu";
@@ -30,6 +31,7 @@ function App() {
       <FourthPage />
       <FifthPage />
       <SixthPage />
+      <SeventhPage />
     </>
   )
 }
@@ -222,5 +224,13 @@ function SixthPage() {
     </div>
   );
 }
+
+function SeventhPage() {
+  return (
+    <div className='second-page'>
+      <img src={img2} alt="User Feedback Visualization" className='firstimg'/>
+    </div>
+  );
+};
 
 export default App
