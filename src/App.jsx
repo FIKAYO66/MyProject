@@ -122,7 +122,7 @@ function FirstPage() {
           roadmaps that sync automatically, changelogs that write themselves, and engagement loops that run themselves.
         </p>
       </div>
-      <button className='first-button'>Get Started <IoIosArrowDroprightCircle /></button>
+      <Link to="/product"><button className='first-button'>Get Started<IoIosArrowDroprightCircle /></button></Link>
       <div className='text-and-icons'>
         <p><IoGiftOutline /> Free forever</p>
         <p><TbWavesElectricity /> 30-second setup</p>
