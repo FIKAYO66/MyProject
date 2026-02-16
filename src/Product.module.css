@@ -1,0 +1,107 @@
+
+.background {
+ width: 100vw;
+  height: 100vh; /* full screen */
+  background: rgb(19, 18, 18);
+  display: flex; /* center content */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  color: white;
+  font-size: 14px;
+}
+
+.background p {
+  color: grey;
+  font-size: 13px;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  border:  5px solid rgb(107, 68, 214);
+  background:  rgb(107, 68, 214);
+  border-radius: 7px;
+}
+.signup {
+  width: 380px;
+  height: 80%;
+  border: 1px solid #ffffff73;
+  border-radius: 10px;
+  background-color: rgb(29, 28, 28);
+}
+
+
+.signup > * {
+margin-left: 20px;
+}
+
+.signup input{
+  color: white;
+  align-items: center;
+  width: 325px;
+  border: 1px solid gray;
+  background: transparent;
+  height: 35px;
+  border-radius: 7px;
+}
+
+.signup button {
+  width: 320px;
+  height: 35px;
+  border: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  margin-left: -20px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom:0.05rem solid #ccc; /* line color */
+}
+
+.divider:not(:empty)::before {
+  margin-right: 7px;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 7px;
+}
+
+.divider span {
+  color: #888; /* text color */
+  font-size: 13px;
+}
+
+.password {
+  margin-top: 22px; 
+  font-size: 13px;
+}
+
+.buttono{
+  background-color: rgb(81, 81, 240);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
